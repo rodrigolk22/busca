@@ -1,0 +1,13 @@
+<ul>
+	<li>
+		<div id="relativeContentBodyList">
+			<div class="contentListItem width25">
+				<img src="images/hero.fw.png"></img>
+				<span>Tony Stark</span>
+			</div>
+			<div id="contentDetails"  class="contentListItem width75">
+				<span>Descri&ccedil;&atilde;o do personagem</span>
+			</div>
+		</div>
+	</li>
+</ul>

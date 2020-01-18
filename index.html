@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,900&display=swap" rel="stylesheet"> 
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
+  <title>Busca Kitsu</title>
+  </head>
+  <body>
+  <div id="contentMain">
+	<div id="contentHeader">
+		<div id="contentHeaderTop">
+			<span class="title">BUSCA KITSU</span>
+			<span class="subtitle">TESTE FRONT-END</span>
+			<span class="nameCandidate">NOME DO CANDIDATO</span>
+		</div>
+		<div class="topBar"></div>
+		<div id="contentHeaderSearch">
+			<span class="inputTitle">Nome do Personagem</span>
+			<form onsubmit="characterSearch();">
+				<input type="text" id="searchCharacter">
+			</form>
+		</div>
+		
+	</div>
+	<div id="contentBody">
+		<div id="contentBodyLegend"><div id="relativeContentBodyLegend"><div class="width25 rightBorder"><span>Personagem</span></div><div id="legendDetails" class="width75"><span>Descri&ccedil;&atilde;o</span></div></div></div>
+		<div id="contentBodyList">
+		<!-- itens da lista -->
+		</div>
+	</div>
+  </div>
+  <div id="contentFooter">
+	<div id="contentFooterContainer">
+		<div id="arrowLeft" class="arrowLeft" onclick="reduceOffset()"></div>
+		<div id="pageList">
+			
+		</div>
+		<div id="arrowRight" class="arrowRight"onclick="increaseOffset()"></div>
+	</div>
+  </div>
+  </div>
+  <div id="footer"></div>
+  </body>
+ <html>
